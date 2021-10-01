@@ -1,0 +1,62 @@
+p {
+  font-size: 0.85rem;
+}
+.img-set {
+  width: 30px;
+  height: 30px;
+}
+
+.upperblog-padding {
+  margin-bottom: 0;
+}
+
+.upperblog-heading {
+  font-size: 1.2rem;
+}
+
+.blog-padding {
+  padding-right: 70px;
+}
+
+.div-width {
+  width: 80%;
+}
+
+.sidebar-padding {
+  padding-right: 50px;
+  padding-top: 35px;
+  padding-bottom: 110px;
+  padding-left: 30px;
+}
+
+.sidebar-heading {
+  padding-left: 11px;
+}
+
+@media screen and (min-width: 992px) {
+  .uppersidebar-padding {
+    padding-right: 2.9rem !important;
+    padding-left: 12px !important;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  .upperblog-heading {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sidebar-padding {
+    padding-right: 10px;
+  }
+  .cs-sm-b-none {
+    border-left: 0px !important;
+  }
+}
